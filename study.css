@@ -1,0 +1,1005 @@
+*{
+
+    box-sizing: border-box;
+    
+    }
+    
+    body{
+        /* font-family: 'Fira Sans', sans-serif; */
+    /* font-family: 'Montserrat', sans-serif; */
+    /* font-family: 'Satisfy', cursive; */
+    padding: 0;
+    margin: 0;
+       }
+       
+       html{
+        scroll-behavior: smooth; 
+       
+       /* <i class="fab fa-youtube"></i> */
+       /* <i class="fas fa-cloud-showers-heavy"></i> */
+       /* <i class="far fa-envelope"></i> */
+       /* <i class="fab fa-facebook"></i> */
+       /* <i class="fab fa-skype"></i> */
+       /* <i class="fab fa-github"></i> */
+       /* <i class="fab fa-linkedin-in"></i> */
+        } 
+       
+    
+    
+         
+            [class*="col-"]{
+            float: left;
+            padding: 10px;
+            }
+            
+            
+            
+            [class*="col-"]{
+            
+            width: 100%;
+            
+            
+            
+            }
+            
+            
+            
+        
+        /* small devices(portrait tablets and large phones,576px and up)*/ 
+        @media (min-width:576px) {
+        
+    
+         
+    
+            .col-sm-1 {
+            
+            width: 8.33%;
+            
+            }
+            
+            .col-sm-2 {
+            
+                width: 16.65%;
+                
+                }
+                
+            
+                .col-sm-3 {
+            
+                    width: 25%;
+                    
+                    }
+                    
+                    .col-sm-4 {
+            
+                        width: 33.33%;
+                        
+                        }
+            
+                        
+            
+            
+            
+            
+                        .col-sm-5 {
+            
+                            width: 41.66%;
+                            
+                            }
+                            
+            
+            
+                            .col-sm-6 {
+            
+                                width: 50%;
+                                
+                                }
+                                
+                                .col-sm-7 {
+            
+                                    width: 58.33%;
+                                    
+                                    }
+                       
+                                    
+                                    .col-sm-8 {
+            
+                                        width: 66.66%;
+                                        
+                                        }
+                              
+                                        
+            
+                                        .col-sm-9 {
+            
+                                            width: 75%;
+                                            
+                                            }
+                                            
+            
+            
+                                            .col-sm-10 {
+            
+                                                width: 83.33%;
+                                                
+                                                }
+                                                
+            
+            
+            
+                                                .col-sm-11 {
+            
+                                                    width: 91.66%;
+                                                    
+                                                    }
+                                                    
+            
+            
+            
+            
+            
+            
+                                                    .col-sm-12 {
+            
+                                                        width: 100%;
+                                                        
+                                                        }
+                                                        
+            
+                                                        
+            
+                                                    }
+            
+            
+            
+            
+            
+            /* medium devices(portrait tablets and large phones,768px and up)*/ 
+            @media (min-width:768px) {
+            
+                .col-md-1 {
+                
+                width: 8.33%;
+                
+                }
+                
+                .col-md-2 {
+                
+                    width: 16.65%;
+                    
+                    }
+                    
+                
+                    .col-md-3 {
+                
+                        width: 25%;
+                        
+                        }
+                        
+                        .col-md-4 {
+                
+                            width: 33.33%;
+                            
+                            }
+                
+                            
+                
+                
+                
+                
+                            .col-md-5 {
+                
+                                width: 41.66%;
+                                
+                                }
+                                
+                
+                
+                                .col-md-6 {
+                
+                                    width: 50%;
+                                    
+                                    }
+                                    
+                                    .col-md-7 {
+                
+                                        width: 58.33%;
+                                        
+                                        }
+                           
+                                        
+                                        .col-md-8 {
+                
+                                            width: 66.66%;
+                                            
+                                            }
+                                  
+                                            
+                
+                                            .col-md-9 {
+                
+                                                width: 75%;
+                                                
+                                                }
+                                                
+                
+                
+                                                .col-md-10 {
+                
+                                                    width: 83.33%;
+                                                    
+                                                    }
+                                                    
+                
+                
+                
+                                                    .col-md-11 {
+                
+                                                        width: 91.66%;
+                                                        
+                                                        }
+                                                        
+                
+                
+                
+                
+                
+                
+                                                        .col-md-12 {
+                
+                                                            width: 100%;
+                                                            
+                                                            }
+                                                            
+                
+                                                            
+                
+                
+                
+                
+                }
+            
+            
+            
+        /* large devices(portrait tablets and large phones,992px and up)*/ 
+        
+        
+        
+        @media (min-width:992px) {
+           .logo{
+    text-align: left;
+    
+           }
+    .name h1{
+    text-align: right;
+    
+    }
+    .contact-menu{
+    flex-direction: row;
+    
+    
+    }
+    
+            .col-lg-1 {
+            
+                width: 8.33%;
+                
+                }
+                
+                .col-lg-2 {
+                
+                    width: 16.65%;
+                    
+                    }
+                    
+                
+                    .col-lg-3 {
+                
+                        width: 25%;
+                        
+                        }
+                        
+                        .col-lg-4 {
+                
+                            width: 33.33%;
+                            
+                            }
+                
+                            
+                
+                
+                
+                
+                            .col-lg-5 {
+                
+                                width: 41.66%;
+                                
+                                }
+                                
+                
+                
+                                .col-lg-6 {
+                
+                                    width: 50%;
+                                    
+                                    }
+                                    
+                                    .col-lg-7 {
+                
+                                        width: 58.33%;
+                                        
+                                        }
+                           
+                                        
+                                        .col-lg-8 {
+                
+                                            width: 66.66%;
+                                            
+                                            }
+                                  
+                                            
+                
+                                            .col-lg-9 {
+                
+                                                width: 75%;
+                                                
+                                                }
+                                                
+                
+                
+                                                .col-lg-10 {
+                
+                                                    width: 83.33%;
+                                                    
+                                                    }
+                                                    
+                
+                
+                
+                                                    .col-lg-11 {
+                
+                                                        width: 91.66%;
+                                                        
+                                                        }
+                                                        
+                
+                
+                
+                
+                
+                
+                                                        .col-lg-12 {
+                
+                                                            width: 100%;
+                                                            
+                                                            }
+                                                            
+                                                        }
+                                       
+                                                        
+             .dotted-hr{
+                 border: 6px dotted white;
+                 border-bottom: none;
+                 width: 70px;
+                 margin: 20px auto;
+             }                                           
+                                                        
+    
+    /* navbar-starts */
+    .navbar{
+    background-color: #0c6168;
+    padding: -3% 7%;
+    text-align: center;
+    margin: 6px;
+    }            
+    
+    .navbar::after{
+    clear: both;
+    display: table;
+    content: '';
+    
+    }
+     .name h1{
+    color: white;
+    padding-top: 10px;
+    margin: 0;
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+     }  
+     .logo{
+    
+    
+    
+    
+     }
+     .name{
+    
+    
+     }
+    .contact-menu{
+    display: flex;
+    text-transform: uppercase;
+    flex-direction: column;
+    
+    }
+    
+    .contact-menu a{
+    background-color: #0d3033;
+    border-radius: 10px;
+    margin: 7px 0px;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    text-align: center;
+    color: white;
+    transition: .5s;
+    transition-property: color;
+       
+     font-family: 'Montserrat', sans-serif; 
+    }
+    .contact-menu a:hover{
+    background: gray;
+    transform: scale(1.2);
+    
+    }
+    
+    
+    /* navbar-ends */
+    
+    /* profile starts */
+    .profile{padding: 122px 10px;position: relative;text-align: center;}
+    .top-weather {
+        position: absolute;
+        right: 20px;
+        top: -11px;
+        transform: .7s;
+    }
+    .buttom-weather{
+    
+    position: absolute;
+    
+    left: 4px;
+    bottom: -4px;
+    transform: .7s;
+    }
+
+    .top-weather:hover{
+    transform: rotate(160deg) scale(0.8);
+
+    }
+
+    
+    .buttom-weather:hover{
+        transform: rotate(160deg) scale(0.8);
+    
+        }
+        .profile-desc h1{
+text-transform: uppercase;
+font-size: 3rem;
+font-weight: bolder;
+line-height: 1.3;
+color: #0d3033;;
+word-spacing: 1.1 !important;
+
+ font-family: 'Satisfy', cursive; 
+        }
+
+        .profile-desc p{
+            text-transform: capitalize;
+            font-size: 1.1rem;
+            font-weight: bolder;
+            line-height: 1.3;
+            color: #0d3033;
+            word-spacing: 0.8;
+            
+     font-family: 'Montserrat', sans-serif; 
+                    }
+
+    
+    /* profile ends */
+
+
+    /*  about me starts */
+    div#about-me {
+        background-color: #39a4ac;
+        padding: 1% 7%;
+        color: white;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif; 
+    }
+
+
+    div#about-me::after{
+        clear: both;
+        display: table;
+        content: '';
+        
+        }
+
+
+        div#about-me {
+            background-color: #39a4ac;
+            padding: 1% 7%;
+            color: white;
+            text-align: center;
+        }
+        
+        .about-me-image.col-6 {
+        }
+        
+        .img {
+            width: 310px;
+            border: 6px solid white;
+            height: 361px;
+            border-radius: 50%;
+            text-align: center;
+        }
+
+        .about-me-desc > p {
+            font-size: 1rem;
+            font-weight: 600;
+            text-align: justify;
+            text-transform: capitalize;
+              font-family: 'Fira Sans', sans-serif; 
+        }
+        .about-me-desc a{
+            text-decoration: none;
+            color: black;
+        }
+        
+        
+        button.cv-button {
+            font-size: 1.2rem;
+            background-color: #052d2f;
+            color: white;
+            padding: 5px;
+            border: 2px solid #052d2f;
+            border-radius: 5px;
+            transition: 1.5s;
+        }
+
+.cv-button:hover{
+transform: scale(1.3);
+background-color: #3dbdc4;
+cursor: pointer;
+
+
+}
+
+
+    /*  about me ends */
+
+
+    /*  professional experience starts here */
+
+
+    div#skill {
+        padding: 1% 0;
+    }
+    
+    .card {
+        background-color: #a39e9e;
+        padding: 10px;
+        border-radius: 5px;
+        height: 592px;
+    transition: 0.8s;
+    }
+
+    .card:hover{
+        box-shadow: 0 4px 8px 5px black;
+
+    }
+
+
+    .professional-experience::after{
+
+        clear: both;
+        display: table;
+        content: '';
+        
+        }
+        
+      
+
+        
+        
+        .card-icon {
+            text-align: center;
+        }
+        
+        .card-icon img {
+            margin-top: 20px;
+            width: 50px;
+            border: 5px solid white;
+            border-radius: 50%;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 2rem;
+            font-weight: 600;
+            line-height: 34px;
+            font-family: 'Satisfy', cursive;
+        }
+
+        .card-desc ol li {
+            font-size: -1.8rem;
+            line-height: -1;
+            font-weight: 600;
+              font-family: 'Montserrat', sans-serif; 
+        }
+
+        .desc-container {
+            padding-right: 45px;
+        }
+        
+        .desc-container li {
+            list-style: none;
+            font-weight: bold;
+            margin: 28px 10px;
+        position: relative;
+        text-transform: uppercase;
+        }
+
+.desc-container li::before{
+
+    content: '';
+    position: absolute;
+    
+top:calc(100% + 5px) ;
+background-color: rgba(7, 7, 189, 0.5);
+width: 100%;
+height: 10px;
+
+left: 0;
+border-radius: 1000px;
+
+
+
+}
+
+
+.desc-container li::after{
+
+    content: '';
+    position: absolute;
+    
+top:calc(100% + 5px) ;
+background-color: rgba(7, 7, 24, 0.5);
+width: 100%;
+height: 10px;
+
+left: 0;
+border-radius: 1000px;
+animation-duration: 4s;
+animation-delay: 2s;
+animation-timing-function: linear;
+animation-fill-mode: forwards;
+animation-iteration-count: infinite;
+}
+
+.desc-container li.html::after{
+
+    animation-name: html;
+    
+    
+    }
+    
+           @keyframes html {
+    
+    to{
+    width: 95%;
+    
+    
+    
+    }
+    
+    
+           }     
+            
+
+
+
+           .desc-container li.css::after{
+
+            animation-name: css;
+            
+            
+            }
+            
+                   @keyframes css {
+            
+            to{
+            width: 85%;
+            
+            
+            
+            }
+            
+            
+                   }     
+    
+    
+    
+    
+    
+                   .desc-container li.bootstrap::after{
+    
+                    animation-name:bootstrap ;
+                    
+                    
+                    }
+                    
+                           @keyframes bootstrap {
+                    
+                    to{
+                    width: ;
+                    
+                    
+                    
+                    }
+                    
+                    
+                           }     
+            
+    
+                           .desc-container li.js::after{
+    
+                            animation-name:js ;
+                            
+                            
+                            }
+                            
+                                   @keyframes js {
+                            
+                            to{
+                            width: ;
+                            
+                            
+                            
+                            }
+                            
+                            
+                                   }     
+                    
+            
+    
+    
+                                   .desc-container li.jquery::after{
+    
+                                    animation-name:jquery ;
+                                    
+                                    
+                                    }
+                                    
+                                           @keyframes jquery {
+                                    
+                                    to{
+                                    width: ;
+                                    
+                                    
+                                    
+                                    }
+                                    
+                                    
+                                           }     
+                            
+    
+                                           .desc-container li.node::after{
+    
+                                            animation-name:node ;
+                                            
+                                            
+                                            }
+                                            
+                                                   @keyframes node {
+                                            
+                                            to{
+                                            width: ;
+                                            
+                                            
+                                            
+                                            }
+                                            
+                                        }
+    
+    
+    
+                                            .desc-container li.express::after{
+    
+                                                animation-name:express ;
+                                                
+                                                
+                                                }
+                                                
+                                                       @keyframes express {
+                                                
+                                                to{
+                                                width: ;
+                                                
+                                                
+                                                
+                                                }
+                                                
+    
+    
+                                            }
+    
+    
+    
+    
+                     .desc-container li.git::after{
+    
+                                                animation-name:git ;
+                                                
+                                                
+                                                }
+                                                
+                                                       @keyframes git {
+                                                
+                                                to{
+                                                width: 50%;
+                                                
+                                                
+                                                
+                                                }
+                                                
+    
+                                            }
+    
+    
+                                                .desc-container li.react::after{
+    
+                                                    animation-name:react ;
+                                                    
+                                                    
+                                                    }
+                                                    
+                                                           @keyframes react {
+                                                    
+                                                    to{
+                                                    width: ;
+                                                    
+                                                    
+                                                    
+                                                    }
+                                                    
+    
+                                                }
+    
+                                                /*  professional experience ends here */
+
+
+                                                /*  achievement-contact starts form here */
+                                 
+
+
+                                               .achievement-contact::after{
+
+                                                clear: both;
+                                                display: table;
+                                                content: '';
+                                                
+                                                }
+                                                .achievement-contact {
+                                                    background-color: #39a4ac;
+                                                    padding: 1% 7%;
+                                                    color: white;
+                                                }    
+                                            
+                                                h2 {
+                                                    text-align: center;
+                                                    font-size: 1.8rem;
+                                                    font-weight: bolder;
+                                                }
+                                                
+                                                .contact p,input,textarea {
+                                                    /* border: none; */
+                                                    /* text-align: center; */
+                                                }
+                                                
+                                                input.input {
+                                                    border: none;
+                                                    text-align: center;
+                                                    text-transform: uppercase;
+                                                    color: #39a4ac;
+                                                    padding: 10px 40px;
+                                                    border-radius: 10px;
+                                                    margin: 0 41px;
+                                                    border: none;
+                                                }
+                                                
+                                                input[type="email"] {
+                                                    text-align: center;
+                                                    text-transform: uppercase;
+                                                    padding: 9px 33px;
+                                                    margin: 0px 45px;
+                                                    border-radius: 10px;
+                                                    color: white;
+                                                    border: none;
+                                                }
+                                                
+                                                textarea {
+                                                    text-align: center;
+                                                    border-radius: 10px;
+                                                    margin: 0 51px;
+                                                    border: none;
+                                                    resize: none;
+                                                }
+                                                
+                                                button {
+                                                    text-transform: uppercase;
+                                                    padding: 12px 18px;
+                                                    border-radius: 10px;
+                                                    margin: 0 41px;
+                                                    background-color: #3d6c6f;
+                                                    color: white;
+                                                }
+
+                                 /*  achievement-contact ends form here */
+
+/* footer starts */
+
+.footer{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 1rem;
+    }
+    
+    .footer-menu a{
+    display: block;
+    font-size: 1rem;
+    margin: 15px 0;
+    
+    
+    }
+    
+    
+    
+    .footer-menu a:hover{
+      color: gray;
+        
+        }
+    
+    
+    
+    
+    
+    
+    
+    
+    .footer::after{
+    display: table;
+    clear: both;
+    content: '';
+    }
+    
+    .footer {
+        background-color: #171919;
+        padding: 1;
+    }
+    
+    .footer-desc.col-6 {
+        text-align: center;
+        font-size: 1rem;
+        padding: 0 -52px;
+        margin: 19px 284px;
+    }
+    
+    a#home {
+        text-decoration: none;
+        font-size: 2rem;
+        text-transform: uppercase;
+        color: #39a4ac;
+        transition: 0.8s;
+    }
+
+
+    a#home:hover{
+transform: scale(1.2);
+color: blue;
+
+    }
+/* footer ends */
